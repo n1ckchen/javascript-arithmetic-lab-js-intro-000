@@ -40,8 +40,8 @@ function decrement(n) {
   return n;
 };
 
-function makeInt(n) {
-  parseInt(n,base);
+function makeInt(n, base) {
+  parseInt(n,10);
   return n;
 };
 const preserveDecimal = n => {
