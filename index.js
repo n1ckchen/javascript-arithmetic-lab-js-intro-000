@@ -40,14 +40,11 @@ function decrement(n) {
   return n;
 };
 
-function makeInt(n, base) {
-  const parsedNum = parseInt(n, 10);
-  if (parsedNum === NaN {
-    return 0;
-  }
-  return parsedNum;
+function makeInt(n) {
+  return parseInt(n, 10);
 
   }
+
 
 
 };
