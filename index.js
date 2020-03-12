@@ -13,3 +13,7 @@ function multiplies(){
 function divide() {
 
 };
+
+function add(a, b) {
+  return add;
+}
