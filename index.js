@@ -41,7 +41,7 @@ function decrement(n) {
 };
 
 function makeInt(n, base) {
-  parseInt(n,base);
+  parseInt(n, base);
   return n;
 };
 function preserveDecimal(n){
