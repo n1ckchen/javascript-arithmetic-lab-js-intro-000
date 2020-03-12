@@ -42,7 +42,7 @@ function decrement(n) {
 
 function makeInt(n, base) {
   const parsedNum = parseInt(n, 10);
-  if (isNaN(parsedNum)) {
+  if (parsedNum === NaN {
     return 0;
   }
   return parsedNum;
