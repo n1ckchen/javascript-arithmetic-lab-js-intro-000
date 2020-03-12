@@ -2,11 +2,11 @@ function add() {
 
 };
 
-function subtracts() {
+function subtract() {
 
 };
 
-function multiplies(){
+function multiply(){
 
 };
 
