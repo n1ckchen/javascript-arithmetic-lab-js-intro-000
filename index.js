@@ -45,6 +45,6 @@ function makeInt(n) {
   return n;
 };
 const preserveDecimal = n => {
-  parseFloat('n');
+  parseFloat(n);
   return n;
 };
