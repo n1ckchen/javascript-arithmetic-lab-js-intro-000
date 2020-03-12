@@ -44,7 +44,7 @@ function makeInt(n, base) {
   parseInt(n,10);
   return n;
 };
-const preserveDecimal = n => {
-  parseFloat(n);
-  return n;
+const preserveDecimal = ('n') => {
+  parseFloat('n');
+  return 'n';
 };
