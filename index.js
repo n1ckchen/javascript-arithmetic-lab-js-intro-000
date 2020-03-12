@@ -40,9 +40,16 @@ function decrement(n) {
   return n;
 };
 
-function makeInt(n, base) {
-  parseInt(n, base);
-  return n;
+function makeInt(n, 10) {
+  const parsedNum = parseInt(n, 10);
+  if (isNaN(parsedNum)) {
+    return 0;
+  }
+  return parsedNum;
+
+  }
+
+
 };
 function preserveDecimal(n){
   parseFloat(n);
