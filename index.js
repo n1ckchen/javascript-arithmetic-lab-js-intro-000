@@ -1,4 +1,6 @@
 function add() {
+  var newNumber = add(a, b);
+  return newNumber;
 
 };
 
@@ -13,5 +15,3 @@ function multiplies(){
 function divide() {
 
 };
-
-add(a, b);
